@@ -17,7 +17,12 @@
 # rild
 PRODUCT_PACKAGES := \
     rild \
+<<<<<<< HEAD
     CarrierConfig \
+    BasicSmsReceiver
+=======
+    GoogleMessenger
+>>>>>>> 7b23f5a... enable sms for deb
 
 PRODUCT_COPY_FILES := \
     device/asus/deb/fstab.deb:root/fstab.flo \
