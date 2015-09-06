@@ -16,8 +16,7 @@
 
 # rild
 PRODUCT_PACKAGES := \
-    rild \
-    GoogleMessenger
+    rild
 
 PRODUCT_COPY_FILES := \
     device/asus/deb/fstab.deb:root/fstab.flo \
